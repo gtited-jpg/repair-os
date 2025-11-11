@@ -1,0 +1,5 @@
+{
+  "name": "Repair OS Production No mock",
+  "description": "A cosmic-themed dashboard for managing repair shop operations, including tickets, employees, vendors, and payroll, featuring a glass-panel UI and an animated starfield background.",
+  "requestFramePermissions": []
+}
