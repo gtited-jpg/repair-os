@@ -86,6 +86,7 @@ const App: React.FC = () => {
 
     const checkSession = async () => {
       const { data: { session } } = await supabase.auth.getSession();
+      console.log('🧩 Current Supabase session at startup:', session);
       if (!mounted) return;
       if (!session) {
         setAppDisplay('login');
